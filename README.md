@@ -9,7 +9,7 @@ This function takes in a year and goes through three checks:
 
 It will return the result.
 
-## Function
+```javascript
 function isLeapYear(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0 )) {
     return `${year} is a leap year.`; 
